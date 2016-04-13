@@ -2,6 +2,7 @@ var wgs84 = require('wgs84');
 
 module.exports.geometry = geometry;
 module.exports.ring = ringArea;
+module.exports.polygonArea = polygonArea;
 
 function geometry(_) {
     var area = 0, i;
